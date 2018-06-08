@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitBicket feedback form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Starting of First Container-->
+    <div class="container">
+        <h1 class="text-center contentheading" id="title">GitBucket feedback form</h1>
+        <!--Starting of Container Fluid-->
+        <div class="container-fluid">
+            <!-- Starting of Second Container Fluid-->
+            <div class="container-fluid contentbody">
+                <p class="text-center" id="description">Letus know how We Can Improve <strong>GitBucket</strong></p>
+                <form action="hello.php form-group" id="survey-form">
+
+                <div class="row">
+                    <div class="col-sm-5 text-right">
+                        <label for="name" id="name-label">* Name :</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5 text-right">
+                        <label for="email" id="email-label">* Email :</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5 text-right">
+                        <label for="age" id="number-label">* Age :</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="number" name="age" id="number" placeholder="Enter your Age" class="form-control" min="10" max="90" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="offset-2 col-sm-3 text-right">
+                        <label for="currentrole">* Which option best describes your current role?</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <select name="Current Status" id="dropdown" class="form-control">
+                            <option value="demo" selected>Choose Your Option ...</option>
+                            <option value="studnet">Student</option>
+                            <option value="developer">Developer</option>
+                            <option value="freelancer">FreeLaner</option>
+                            <option value="fulltimejob">Full Time Job</option>
+                            <option value="parttimejob">Part Time Job</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="offset-2 col-sm-3 text-right">
+                        <label for="age">* How likely is that you would recommend *GitBucket to a friend? :</label>
+                    </div>
+
+                    <div class="col-sm-4">
+                        
+                        <input type="radio" name="recommend"  value="definitely" class="radioclass">
+                            <label class="labelradio">Definitely</label>
+                        </input>
+
+                        <br>
+                        <input type="radio" name="recommend" value="maybe" class="radioclass">
+                            <label class="labelradio">May be</label>
+                        </input>
+                        <br>
+                        <input type="radio" name="recommend" value="notsure" class="radioclass">
+                            <label class="labelradio">Not Sure</label>
+                        </input>
+                        <br>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="offset-2 col-sm-3 text-right">
+                        <label for="currentrole">* Which Did you liked in GitBucket?</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <select name="" id="dropdown" class="form-control">
+                            <option value="demo" selected>Select Your Option</option>
+                            <option value="challanges">Challanges</option>
+                            <option value="community">Community</option>
+                            <option value="projects">Projects</option>
+                            <option value="certifications">Certifications</option>
+                            <option value="opensource">Open Source</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="offset-2 col-sm-3 text-right">
+                        <label for="age">* Things that should be improved in the future (Check all that apply) :</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input type="checkbox" name="age" id="age" class="radioclass" value="UI">
+                            <label class="labelradio">Better User Experience</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="age" id="age" class="radioclass" value="Code Comment">
+                            <label class="labelradio">Highlight Commented Code</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="notsure" id="notsure" class="radioclass" value="Push">
+                            <label class="labelradio">Faster Pushing of Code</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="notsure" id="notsure" class="radioclass" value="contribute">
+                            <label class="labelradio">Contributors</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="notsure" id="notsure" class="radioclass" value="wikis">
+                            <label class="labelradio">Wiki</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="notsure" id="notsure" class="radioclass" value="challenge">
+                            <label class="labelradio">Challanges</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="notsure" id="notsure" class="radioclass" value="forum">
+                            <label class="labelradio">Forum</label>
+                        </input>
+                        <br>
+                        <input type="checkbox" name="notsure" id="notsure" class="radioclass" value="community">
+                            <label class="labelradio">Community Support</label>
+                        </input>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5 text-right">
+                        <label>* Any Comments or Suggestions :</label>
+                    </div>
+                    <div class="col-sm-4">
+                        <textarea name="" id="" cols="45" rows="5" class="form-control" placeholder="Enter your Comment Here ......"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="offset-3 col-sm-6">
+                        <input type="Submit" id="submit" value="Submit Feedback" class="btn btn-primary btn-block">
+                    </div>
+                </div>
+
+            </form>
+            </div>
+            <!--Ending of Second Container Fluid-->
+        </div>
+        <!--Ending of Container Fluid-->
+    </div>
+    <!--Ending of First Container-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
