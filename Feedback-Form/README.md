@@ -1,2 +1,2 @@
 # Git-Bucket-Feedback-Form
-![Sample Image](/Snapshots/Capture.PNG)
+![Sample Image](../Snapshots/Capture.PNG)
