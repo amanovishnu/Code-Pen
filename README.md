@@ -3,4 +3,4 @@
 * You can view the live preview of some projects here:
 * **[SteveJobs-Tribute : View Live Preview](https://amanovishnu.github.io/Free-Code-Camp/Steve-Jobs-Tribute/index.html)**
 * **[Git-Bucket-Survey-Form : View Live Preview](https://amanovishnu.github.io/Free-Code-Camp/Feedback-Form/index.html)**
-<p align="center">Created by Manovishnu</p>
+**<p align="center">© Created by Manovishnu</p>**
