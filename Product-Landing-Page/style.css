@@ -1,0 +1,32 @@
+.navbar-brand {
+    font-weight:500 !important;
+}
+.nav-item {
+    font-weight:500 !important;
+}
+.nav-link {
+    color:black !important;
+}
+.minervaheading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-header {
+    color: white !important;
+    text-align: center;
+}
+.emailbox {
+    padding: 2px;
+}
+.footerparagraph{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.wantheading {
+    margin-top: 5px !important;
+    text-decoration: none !important;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 3px 5px;
+}
