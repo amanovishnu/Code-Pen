@@ -7,24 +7,26 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    border-right: solid;
+    border-right: dashed;
     border-color: black;
-    border-width: 3px;
+    border-width: 5px;
     line-height: 2.4;
     padding: 10px;
 }
 #javascript_documentation {
-    text-align: center;
-    font-weight: bolder;
+    text-align: left;
+    font-weight: bold;
     font-size: 20px;
+    /* border: 2px black solid; */
 }
 .nav-link {
     text-decoration: none;
+    color: black;
 }
 .indexelements {
     list-style-type: none;
 }
-#main_doc {
+#main-doc {
     position: absolute;
     margin-left: 300px;
 }
@@ -46,5 +48,25 @@ code {
     white-space:pre;
     margin-bottom: 20px;
     padding: 20px;
-
+}
+.nav-item {
+    position: relative;
+    left: -30px;
+}
+.nav_link {
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+    code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+    }
 }
