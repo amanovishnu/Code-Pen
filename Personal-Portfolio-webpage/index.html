@@ -4,33 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio Page</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/Logo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Personal Portfolio</title>
 </head>
 <body>
-    <nav id="navbar">
-        <ul>
-            <li class="nav-brand"><a href="#navbar" class="nav-brand-link"><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
+    
+    <nav class="navbar navbar-expand-sm  bg-dark navbar-dark fixed-top " id="navbar">
+        <a href="#" class="navbar-brand"><i class="fab fa-free-code-camp"></i> FreeCodeCamp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
-        <setion id="welcome-section">
-            <header>
-                <h1 class="textstyle" style="font-size: 2.3em;">Hello I'm <a class="name-link" href="https://github.com/amanovishnu">@geekymano</a></h1>
-                <h4 class="textstyle" style="font-size: 1.3em">Full Stack Developer</h4>
-            </header>
+        <section id="welcome-section">
+            <div id="welcomedata">
+                <h1>Hello I'am <a href="https://github.com/amanovishnu">@geekymano</a></h1>
+                <h5>Full Stack Developer</h5>
+            </div>
         </section>
-        <section id="projects">
-            <h1>These are some of <a href="" class="name-link">My Projects</a></h1>
-            <a href=""><img src="images/Minerva.png" alt="Minerva Static Code Analysis Tool" width="50%" height="50%"></a>
-
+        <section id="projects" class="bg-warning">
+            <div class="container">
+                <h3 class="text-center mb-5 text-uppercase pt-5">These are some of my projects</h3>
+                <div class="row mb-5">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white text-center"><strong>Minerva Code Analysis Tool</strong></div>
+                            <div class="card-body"><img src="https://pbs.twimg.com/profile_images/1494047707/Geeks_Code_Logo.jpg" alt="Minerva Code Analysis Tool" width="100%" height="330px"></div>
+                            <div class="card-footer bg-dark text-center text-white"><a href="https://github.com/amanovishnu/Minerva-Code-Analysis-Tool"><strong>Click here to View</strong></a></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white text-center"><strong>Bookstore Web Application</strong></div>
+                            <div class="card-body"><img src="http://getdrawings.com/images/pile-of-books-drawing-31.jpg" alt="Bookstore Web Application" width="100%" height="330px;"></div>
+                            <div class="card-footer bg-dark text-center text-white"><a href="https://github.com/amanovishnu/Bookstore-Web-App"><strong>Click here to View</strong></a></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white text-center"><strong>Obstacle Mapping Rover</strong></div>
+                            <div class="card-body"><img src="https://tjankowski.files.wordpress.com/2007/07/robot-logo.gif" alt="Obstacle Avoiding Rover" width="100%" height="330px"></div>
+                            <div class="card-footer bg-dark text-center text-white"><a href="https://github.com/amanovishnu/Obstalce-Mapping-Rover"><strong>Click here to View</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white text-center"><strong>Customer Billing System</strong></div>
+                            <div class="card-body"><img src="https://creditsmart.in/wp-content/uploads/2015/04/Cibil-logo-Improve-score.jpg" alt="Customer Billing System" width="100%"></div>
+                            <div class="card-footer bg-dark text-center text-white"><a href="https://github.com/amanovishnu/Customer-Billing-System"><strong>Click here to View</strong></a></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white text-center"><strong>Credit Score Estimator</strong></div>
+                            <div class="card-body"><img src="https://www.3quence.com/wp-content/uploads/2017/08/Estimate-small-logo.png" alt="Credit Score Estimator" width="100%"></div>
+                            <div class="card-footer bg-dark text-center text-white"><a href="https://github.com/amanovishnu/Credit-Score-Estimator"><strong>Click here to View</strong></a></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-header bg-dark text-white text-center"><strong>Reliable helping Hands</strong></div>
+                            <div class="card-body"><img src="http://www.letthemdrum.org/uploads/2/1/9/7/21974668/014-helping-hands-logo_orig.png" alt="Reliable Helping Hands" width="100%" height="308px"></div>
+                            <div class="card-footer bg-dark text-center text-white"><a href="https://github.com/amanovishnu/Reliable-Helping-Hands"><strong>Click here to View</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <header class="text-center mt-5 mb-5">
+                    <h3 class="text-uppercase">Let's Work Together</h3>
+                    <h6>Want to Contact me ? Just Drop a Message</h6>
+                </header>
+                <div class="row text-center mb-5">
+                    <div class="col-sm-3">
+                        <h6><i class="fab fa-facebook"></i><br><a href="">facebook@geekymano</a></h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6><i class="fab fa-twitter-square"></i><br><a href="">twitter@geekymano</a></h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6><i class="fab fa-github-square"></i><br><a href="">github@geekymano</a></h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <h6><i class="fas fa-envelope"></i><br><a href="">email@geekymano</a></h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer" class="bg-dark  pt-4 text-white">
+            <div class="container">
+                <div class="row pb-2">
+                    <div class="col-sm-6 text-center">
+                        <p>Created by geekymano for FreeCodeCamp 2018</p>
+                        <p>Copyright © geekymano</p>
+                        <p>Licensed Under MIT</p>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4">
+                        <p class="text-center">Get Latest News Subscribe to our Newsletter</p>
+                        <div class="input-group">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email Address">
+                            <div class="input-group-append">
+                                <input type="submit" class="btn btn-outline-success">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
         </section>
     </main>
+    <!--Bootstrap 4 Required CDN-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- End of Bootstrap 4 Required Javascript -->
+    <!--Particle.js CDN-->    
+    <script>
+        particlesJS.load('welcome-section','particles.json',function(){
+            console.log('callback- partciles.js Config Loaded')
+        });
+    </script>
 </body>
 </html>
